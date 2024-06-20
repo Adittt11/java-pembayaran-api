@@ -102,7 +102,7 @@ Dan akan ditest pada aplikasi Postmen untuk menguji API tersebut.
         + customer: id, first_name, last_name,
         + subscription_items: quantity, amount,
         + item: id, name, price, type 
-        ```(127.0.0.1:9152/subscriptions/7)```
+        ``` ```
 
 
 - POST Subcriptions
