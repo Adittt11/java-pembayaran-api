@@ -22,6 +22,7 @@ Dan akan ditest pada aplikasi Postmen untuk menguji API tersebut.
 ### Customer
 - GET Customers
     - GET /customers => daftar semua pelanggan ``` ```
+![WhatsApp Image 2024-06-21 at 13 57 38_bdd337ca](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/17b53667-f83b-4c31-9fd0-8cd8eaf36db3)
 
 
     - GET /customers/{id} => informasi pelanggan dan alamatnya ``` ```
@@ -32,6 +33,7 @@ Dan akan ditest pada aplikasi Postmen untuk menguji API tersebut.
 
     - GET /customers/{id}/cards => daftar kartu kredit/debit milik pelanggan ``` ```
 
+![WhatsApp Image 2024-06-21 at 17 01 45_2e151f05](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/2e7c6260-4df8-4e72-b377-62700a2a26ea)
 
     - GET /customers/{id}/subscriptions => daftar semua subscriptions milik pelanggan ``` ```
 
@@ -49,7 +51,7 @@ Dan akan ditest pada aplikasi Postmen untuk menguji API tersebut.
 
 - PUT Customers
     - PUT /customers/{id} ``` ```
-
+![WhatsApp Image 2024-06-21 at 16 59 47_d890fa44](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/85fe3c07-7cd2-4ecc-803e-82bc149d1469)
 
     - PUT /customers/{id}/shipping_addresses/{id} ``` ```
 
@@ -57,6 +59,7 @@ Dan akan ditest pada aplikasi Postmen untuk menguji API tersebut.
 
 - DELETE Customers 
     - DELETE /customers/{id}/cards/{id} => menghapus informasi kartu kredit pelanggan jika is_primary bernilai false ``` ```
+![WhatsApp Image 2024-06-21 at 17 05 50_9fe30bc4](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/c54555ac-d2e4-4ad7-8b32-8481cba4bc42)
 
  
 
@@ -66,6 +69,8 @@ Dan akan ditest pada aplikasi Postmen untuk menguji API tersebut.
 ### Items
 - GET Items
     - GET /items => daftar semua produk ``````
+![WhatsApp Image 2024-06-21 at 17 11 38_c2b5aa4a](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/016e0e56-7bd8-4f9d-9bff-11af7691a5f7)
+
 
 - POST Items
     - POST /items => buat item baru ``` ```
@@ -103,11 +108,12 @@ Dan akan ditest pada aplikasi Postmen untuk menguji API tersebut.
         + subscription_items: quantity, amount,
         + item: id, name, price, type 
         ``` ```
-![WhatsApp Image 2024-06-21 at 16 36 01_46db3545](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/f01e3dfa-a6de-40c8-8456-a5548a02d38c)
+
 
 
 - POST Subcriptions
     - POST /subscriptions => buat subscription baru beserta dengan id customer, shipping address, card, dan item yg dibeli ``` ``` 
+![WhatsApp Image 2024-06-21 at 16 36 01_ab5e90e2](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/ca928f8e-a9cd-4eab-a250-a5f88bc6bd89)
 
 
 
