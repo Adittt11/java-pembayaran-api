@@ -82,7 +82,8 @@ Dan akan ditest pada aplikasi Postmen untuk menguji API tersebut.
 - DELETE Items
     - DELETE /items/{id} => 
 
-![WhatsApp Image 2024-06-21 at 13 44 03_97d69458](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/f384b38a-cf37-4d9a-8bb6-f0559c95ce3f)
+![WhatsApp Image 2024-06-21 at 13 44 02_b108dc93](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/dd2f1f4e-29e8-4cbc-baea-cea4fe5242ef)
+
 
 ### Subcriptions
 - GET Subcriptions
