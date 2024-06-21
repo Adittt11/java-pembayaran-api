@@ -40,7 +40,24 @@ Dan akan ditest pada aplikasi Postmen untuk menguji API tersebut.
 
 
 
- - GET /customers/{id}/subscriptions?subscriptions_status={active, cancelled,non-renewing} => daftar semua subscriptions milik pelanggan yg berstatus aktif / cancelled / non-renewing ``` ```
+ - GET /customers/{id}/subscriptions?subscriptions_status={active, cancelled,non-renewing} => daftar semua subscriptions milik pelanggan yg berstatus aktif / cancelled / non-renewing ``` ```<br/>
+ 
+   **Active**
+   
+   ![image](https://github.com/Adittt11/java-pembayaran-api/assets/146904866/7a704392-3b94-429f-b3cf-67657b4f636f)<br/>
+   
+  **cancelled**
+  
+   ![image](https://github.com/Adittt11/java-pembayaran-api/assets/146904866/0b030752-9c26-41ae-89ea-ab2a364bdeed) <br/>
+   
+ **non-renewing**
+ 
+   ![image](https://github.com/Adittt11/java-pembayaran-api/assets/146904866/e087f148-97ee-4b58-805c-fe39f9287cca)
+
+   
+
+   
+
 
 
 ### Subcriptions
