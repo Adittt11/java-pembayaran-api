@@ -13,13 +13,26 @@ Response:
 ```json
 [
   {
-    "id": 1,
-    "name": "Item 1",
-    "price": 100,
-    "type": "Type 1",
-    "is_active": 1
-  },
-  ...
+      "id": 1,
+      "name": "Basic Plan",
+      "price": 1000,
+      "type": "plan",
+      "is_active": 1
+    },
+    {
+      "id": 2,
+      "name": "Premium Plan",
+      "price": 2000,
+      "type": "plan",
+      "is_active": 1
+    },
+    {
+      "id": 3,
+      "name": "Additional Storage",
+      "price": 500,
+      "type": "addon",
+      "is_active": 1
+    }
 ]
 ```
 
@@ -34,31 +47,43 @@ Response:
 ```json
 [
   {
-    "id": 1,
-    "name": "Item 1",
-    "price": 100,
-    "type": "Type 1",
-    "is_active": 1
-  },
-  ...
+      "id": 1,
+      "name": "Basic Plan",
+      "price": 1000,
+      "type": "plan",
+      "is_active": 1
+    },
+    {
+      "id": 2,
+      "name": "Premium Plan",
+      "price": 2000,
+      "type": "plan",
+      "is_active": 1
+    },
+    {
+      "id": 3,
+      "name": "Additional Storage",
+      "price": 500,
+      "type": "addon",
+      "is_active": 1
+    }
 ]
 ```
 
 #### Get Item by ID
 
 ```
-GET /items/{id}
-```
+GET /items/1
 
 Response:
 
 ```json
 {
-  "id": 1,
-  "name": "Item 1",
-  "price": 100,
-  "type": "Type 1",
-  "is_active": 1
+    "is_active": 1,
+    "price": 1000,
+    "name": "Basic Plan",
+    "id": 1,
+    "type": "plan"
 }
 ```
 
@@ -82,7 +107,7 @@ Request Body:
 #### Update Item
 
 ```
-PUT /items/{id}
+PUT /items/1
 ```
 
 Request Body:
