@@ -71,8 +71,7 @@ Dan akan ditest pada aplikasi Postmen untuk menguji API tersebut.
 ![WhatsApp Image 2024-06-21 at 16 31 55_7c1da18c](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/10d09620-3a48-410a-b6fa-826189087663)
 
 
-
-    - GET /subscriptions/{id} =>
+ - GET /subscriptions/{id} =>
         + informasi subscription,
         + customer: id, first_name, last_name,
         + subscription_items: quantity, amount,
@@ -108,7 +107,7 @@ Dan akan ditest pada aplikasi Postmen untuk menguji API tersebut.
 -GET /items?is_active=true => daftar semua produk yg memiliki status aktif
 
 GET /items/{id} => informasi produk
-
+![WhatsApp Image 2024-06-21 at 17 11 38_c2b5aa4a](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/016e0e56-7bd8-4f9d-9bff-11af7691a5f7)
 - POST Items
     - POST /items => buat item baru ``` ```
 
@@ -136,7 +135,13 @@ GET /items/{id} => informasi produk
 
 
 
+- NOT FOUND 404
+  Not Found adalah kode status yang dikembalikan oleh server web ketika halaman yang diminta oleh pengguna tidak dapat ditemukan. Ini mungkin terjadi jika URL salah ketik, halaman telah dihapus, atau halaman tidak pernah ada.
+![WhatsApp Image 2024-06-21 at 18 15 33_8552a4cb](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/b75d1c3f-7f9d-4523-98e1-a5a4a146943c)
 
+
+- NOT FOUND 405
+![WhatsApp Image 2024-06-21 at 18 15 51_a29d8d2e](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/68de1667-5f98-4e5e-a9cc-c0f566fe2e44)
 
 
 
