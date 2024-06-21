@@ -25,69 +25,22 @@ Dan akan ditest pada aplikasi Postmen untuk menguji API tersebut.
 ![WhatsApp Image 2024-06-21 at 13 57 38_bdd337ca](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/17b53667-f83b-4c31-9fd0-8cd8eaf36db3)
 
 
-    - GET /customers/{id} => informasi pelanggan dan alamatnya ``` ```
+- GET /customers/{id} => informasi pelanggan dan alamatnya ``` ```
 
 ![WhatsApp Image 2024-06-21 at 15 28 45_ac80386e](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/1559d19c-dc28-449d-8c1d-ec75c9c10f62)
 
 
 
-    - GET /customers/{id}/cards => daftar kartu kredit/debit milik pelanggan ``` ```
+-  GET /customers/{id}/cards => daftar kartu kredit/debit milik pelanggan ``` ```
 
 ![WhatsApp Image 2024-06-21 at 17 01 45_2e151f05](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/2e7c6260-4df8-4e72-b377-62700a2a26ea)
 
-    - GET /customers/{id}/subscriptions => daftar semua subscriptions milik pelanggan ``` ```
+- GET /customers/{id}/subscriptions => daftar semua subscriptions milik pelanggan ``` ```
+![WhatsApp Image 2024-06-21 at 17 34 07_c086c838](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/6317698c-cdc3-407b-8a5e-b6711b954658)
 
 
 
-    - GET /customers/{id}/subscriptions?subscriptions_status={active, cancelled,non-renewing} => daftar semua subscriptions milik pelanggan yg berstatus aktif / cancelled / non-renewing ``` ```
-
-
-
-- POST Customers
-    - POST /customers => buat pelanggan baru  ``` ```
-![WhatsApp Image 2024-06-21 at 13 43 59_ef8069e4](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/844ee641-6837-4145-af1c-2b9e41b3659f)
-
- 
-
-- PUT Customers
-    - PUT /customers/{id} ``` ```
-![WhatsApp Image 2024-06-21 at 16 59 47_d890fa44](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/85fe3c07-7cd2-4ecc-803e-82bc149d1469)
-
-    - PUT /customers/{id}/shipping_addresses/{id} ``` ```
-
- 
-
-- DELETE Customers 
-    - DELETE /customers/{id}/cards/{id} => menghapus informasi kartu kredit pelanggan jika is_primary bernilai false ``` ```
-![WhatsApp Image 2024-06-21 at 17 05 50_9fe30bc4](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/c54555ac-d2e4-4ad7-8b32-8481cba4bc42)
-
- 
-
-    - DELETE /customers/{id} ``` ```
-
-
-### Items
-- GET Items
-    - GET /items => daftar semua produk ``````
-![WhatsApp Image 2024-06-21 at 17 11 38_c2b5aa4a](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/016e0e56-7bd8-4f9d-9bff-11af7691a5f7)
-
-
-- POST Items
-    - POST /items => buat item baru ``` ```
-
-![WhatsApp Image 2024-06-21 at 16 22 34_ef906b75](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/64dc76d4-1a1f-4c06-ab8b-4221d4474bb8)
-
-
-- PUT Items
-    - PUT /items/{id} ``` ```
-
-![WhatsApp Image 2024-06-21 at 13 44 03_f01e5c73](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/78e10ccf-f628-45fd-a2af-2b162ed66e0d)
-
-
-- DELETE Items
-    - DELETE /items/{id} => 
-
-![WhatsApp Image 2024-06-21 at 13 44 02_b108dc93](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/dd2f1f4e-29e8-4cbc-baea-cea4fe5242ef)
+ - GET /customers/{id}/subscriptions?subscriptions_status={active, cancelled,non-renewing} => daftar semua subscriptions milik pelanggan yg berstatus aktif / cancelled / non-renewing ``` ```
 
 
 ### Subcriptions
@@ -108,6 +61,55 @@ Dan akan ditest pada aplikasi Postmen untuk menguji API tersebut.
         + subscription_items: quantity, amount,
         + item: id, name, price, type 
         ``` ```
+![WhatsApp Image 2024-06-21 at 17 26 06_188f2314](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/42a385ab-5925-4fb3-8bfc-1a080fbd080a)
+
+- POST Customers
+    - POST /customers => buat pelanggan baru  ``` ```
+![WhatsApp Image 2024-06-21 at 13 43 59_ef8069e4](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/844ee641-6837-4145-af1c-2b9e41b3659f)
+
+ 
+
+- PUT Customers
+    - PUT /customers/{id} ``` ```
+![WhatsApp Image 2024-06-21 at 16 59 47_d890fa44](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/85fe3c07-7cd2-4ecc-803e-82bc149d1469)
+
+    - PUT /customers/{id}/shipping_addresses/{id} ``` ```
+
+ 
+
+- DELETE Customers 
+    - DELETE /customers/{id}/cards/{id} => menghapus informasi kartu kredit pelanggan jika is_primary bernilai false ``` ```
+![WhatsApp Image 2024-06-21 at 17 05 50_9fe30bc4](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/c54555ac-d2e4-4ad7-8b32-8481cba4bc42)
+
+
+
+### Items
+- GET Items
+    - GET /items => daftar semua produk ``````
+![WhatsApp Image 2024-06-21 at 17 11 38_c2b5aa4a](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/016e0e56-7bd8-4f9d-9bff-11af7691a5f7)
+
+-GET /items?is_active=true => daftar semua produk yg memiliki status aktif
+
+GET /items/{id} => informasi produk
+
+- POST Items
+    - POST /items => buat item baru ``` ```
+
+![WhatsApp Image 2024-06-21 at 16 22 34_ef906b75](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/64dc76d4-1a1f-4c06-ab8b-4221d4474bb8)
+
+
+- PUT Items
+    - PUT /items/{id} ``` ```
+
+![WhatsApp Image 2024-06-21 at 13 44 03_f01e5c73](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/78e10ccf-f628-45fd-a2af-2b162ed66e0d)
+
+
+- DELETE Items
+    - DELETE /items/{id} => 
+
+![WhatsApp Image 2024-06-21 at 13 44 02_b108dc93](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/dd2f1f4e-29e8-4cbc-baea-cea4fe5242ef)
+
+
 
 
 
