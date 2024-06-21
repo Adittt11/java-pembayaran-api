@@ -70,7 +70,7 @@ Dan akan ditest pada aplikasi Postmen untuk menguji API tersebut.
 - POST Items
     - POST /items => buat item baru ``` ```
 
-   ![WhatsApp Image 2024-06-21 at 13 44 00_172d8f8a](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/181388bb-50ef-4d67-9137-2f7ee83a1e2f)
+![WhatsApp Image 2024-06-21 at 16 22 34_ef906b75](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/64dc76d4-1a1f-4c06-ab8b-4221d4474bb8)
 
 
 - PUT Items
@@ -88,10 +88,12 @@ Dan akan ditest pada aplikasi Postmen untuk menguji API tersebut.
 ### Subcriptions
 - GET Subcriptions
     - GET /subscriptions => daftar semua subscriptions ``` ```
+![WhatsApp Image 2024-06-21 at 16 19 38_ebfd1ecc](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/b9b1a7cf-3a5c-48d2-9d5e-c060c66a81c3)
 
 
 
     - GET /subscriptions?sort_by=current_term_end&sort_type=desc => daftar semua subscriptions diurutkan berdasarkan current_term_end secara descending ``` ```
+![WhatsApp Image 2024-06-21 at 16 31 55_7c1da18c](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/10d09620-3a48-410a-b6fa-826189087663)
 
 
 
@@ -101,6 +103,7 @@ Dan akan ditest pada aplikasi Postmen untuk menguji API tersebut.
         + subscription_items: quantity, amount,
         + item: id, name, price, type 
         ``` ```
+![WhatsApp Image 2024-06-21 at 16 36 01_46db3545](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/f01e3dfa-a6de-40c8-8456-a5548a02d38c)
 
 
 - POST Subcriptions
