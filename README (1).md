@@ -6,35 +6,9 @@
 
 ```
 GET /items
-```
+```masukin gambar
 
-Response:
-
-```json
-[
-  {
-      "id": 1,
-      "name": "Basic Plan",
-      "price": 1000,
-      "type": "plan",
-      "is_active": 1
-    },
-    {
-      "id": 2,
-      "name": "Premium Plan",
-      "price": 2000,
-      "type": "plan",
-      "is_active": 1
-    },
-    {
-      "id": 3,
-      "name": "Additional Storage",
-      "price": 500,
-      "type": "addon",
-      "is_active": 1
-    }
-]
-```
+Response:```
 
 #### Get Active Items
 
