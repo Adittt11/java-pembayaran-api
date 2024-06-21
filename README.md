@@ -16,7 +16,7 @@ Dengan method Request method pada API:
 - PUT: Memperbarui sumber daya yang ada di server.
 - DELETE: Menghapus sumber daya dari server
 
-Dan akan ditest pada aplikasi Postmen untuk menguji API tersebut.
+Dan akan ditest pada aplikasi Postman untuk menguji API tersebut.
 ## Spesifikasi API
 
 ### Customer
