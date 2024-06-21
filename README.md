@@ -24,13 +24,13 @@ Dan akan ditest pada aplikasi Postmen untuk menguji API tersebut.
     - GET /customers => daftar semua pelanggan ``` ```
 
 
-
     - GET /customers/{id} => informasi pelanggan dan alamatnya ``` ```
+
+![WhatsApp Image 2024-06-21 at 15 28 45_ac80386e](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/1559d19c-dc28-449d-8c1d-ec75c9c10f62)
 
 
 
     - GET /customers/{id}/cards => daftar kartu kredit/debit milik pelanggan ``` ```
-
 
 
     - GET /customers/{id}/subscriptions => daftar semua subscriptions milik pelanggan ``` ```
@@ -40,8 +40,10 @@ Dan akan ditest pada aplikasi Postmen untuk menguji API tersebut.
     - GET /customers/{id}/subscriptions?subscriptions_status={active, cancelled,non-renewing} => daftar semua subscriptions milik pelanggan yg berstatus aktif / cancelled / non-renewing ``` ```
 
 
+
 - POST Customers
     - POST /customers => buat pelanggan baru  ``` ```
+![WhatsApp Image 2024-06-21 at 13 43 59_ef8069e4](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/844ee641-6837-4145-af1c-2b9e41b3659f)
 
  
 
@@ -65,27 +67,22 @@ Dan akan ditest pada aplikasi Postmen untuk menguji API tersebut.
 - GET Items
     - GET /items => daftar semua produk ``````
 
-
-
-    - GET /items?is_active=true => daftar semua produk yg memiliki status aktif ``` ```
-
-
-    - GET /items/{id} => informasi produk `` ```
-
-
 - POST Items
     - POST /items => buat item baru ``` ```
 
-   
+   ![WhatsApp Image 2024-06-21 at 13 44 00_172d8f8a](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/181388bb-50ef-4d67-9137-2f7ee83a1e2f)
+
 
 - PUT Items
     - PUT /items/{id} ``` ```
 
+![WhatsApp Image 2024-06-21 at 13 44 03_f01e5c73](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/78e10ccf-f628-45fd-a2af-2b162ed66e0d)
 
 
 - DELETE Items
-    - DELETE /items/{id} => mengubah status item is_active menjadi false ``` ```
+    - DELETE /items/{id} => 
 
+![WhatsApp Image 2024-06-21 at 13 44 03_97d69458](https://github.com/Adittt11/java-pembayaran-api/assets/146901357/f384b38a-cf37-4d9a-8bb6-f0559c95ce3f)
 
 ### Subcriptions
 - GET Subcriptions
